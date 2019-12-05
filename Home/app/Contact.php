@@ -12,7 +12,7 @@ class Contact extends Model
 
   protected $dates = ['birthday'];
 
-  // Mutator to make the contacts birthday an isntance of Carbon
+  // Mutator to make the contacts birthday an instance of Carbon
   public function setBirthdayAttribute($birthday)
   {
     $this->attributes['birthday'] = Carbon::parse($birthday);
