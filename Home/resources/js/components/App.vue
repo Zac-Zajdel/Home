@@ -15,7 +15,7 @@
             <div class="tracking-wide">Add New Contact</div>
           </router-link>
 
-          <p class="pt-12 text-gray-500 uppercase text-xs">General</p>
+          <p class="pt-12 text-gray-500 uppercase text-xs">Personal</p>
           <router-link to="/contacts" class="flex items-center text-blue-700 hover:text-blue-500">
             <div class="tracking-wide">Contacts</div>
           </router-link>
@@ -23,8 +23,11 @@
             <div class="tracking-wide">Birthdays</div>
           </router-link>
 
-          <p class="pt-12 text-gray-500 uppercase text-xs">General</p>
-          <router-link to="/" class="flex items-center text-blue-700 hover:text-blue-500">
+          <p class="pt-12 text-gray-500 uppercase text-xs">Financial</p>
+          <router-link
+            to="/budgetManager"
+            class="flex items-center text-blue-700 hover:text-blue-500"
+          >
             <div class="tracking-wide">Budget Manager</div>
           </router-link>
           <router-link to="/calculator" class="flex items-center text-blue-700 hover:text-blue-500">
