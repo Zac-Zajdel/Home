@@ -67,7 +67,7 @@ export default {
     axios
       .get("/api/contacts/" + this.$route.params.id)
       .then(response => {
-        let info = response.data;
+        let info = response.data.data;
         this.form.name = info.name;
         this.form.email = info.email;
         this.form.company = info.company;
@@ -88,7 +88,7 @@ export default {
       axios
         .put("/api/contacts/" + this.$route.params.id, this.form)
         .then(response => {
-          this.$router.push("/");
+          this.$router.push("/contacts");
         })
         .catch(errors => {
           this.errors = errors.response.data.errors;

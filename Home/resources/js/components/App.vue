@@ -19,6 +19,17 @@
           <router-link to="/contacts" class="flex items-center text-blue-700 hover:text-blue-500">
             <div class="tracking-wide">Contacts</div>
           </router-link>
+          <router-link to="/birthdays" class="flex items-center text-blue-700 hover:text-blue-500">
+            <div class="tracking-wide">Birthdays</div>
+          </router-link>
+
+          <p class="pt-12 text-gray-500 uppercase text-xs">General</p>
+          <router-link to="/" class="flex items-center text-blue-700 hover:text-blue-500">
+            <div class="tracking-wide">Budget Manager</div>
+          </router-link>
+          <router-link to="/calculator" class="flex items-center text-blue-700 hover:text-blue-500">
+            <div class="tracking-wide">Calculator</div>
+          </router-link>
 
           <p class="pt-12 text-gray-500 uppercase text-xs">Settings</p>
           <div class="flex items-center text-blue-700 hover:text-blue-500">
@@ -30,6 +41,7 @@
       <div class="flex flex-col flex-auto h-screen overflow-y-hidden">
         <div class="flex items-center justify-between h-16 px-6 border-b border-gray-400">
           <div></div>
+          <!-- TODO: Add Breadcrumbs For Better UX -->
           <ProfileCircle :name="user.name"></ProfileCircle>
         </div>
         <div class="flex flex-col overflow-y-hidden flex-auto">

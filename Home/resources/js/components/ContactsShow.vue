@@ -83,12 +83,12 @@ export default {
     axios
       .get("/api/contacts/" + this.$route.params.id)
       .then(response => {
-        let info = response.data;
+        let info = response.data.data;
         this.contact.name = info.name;
         this.contact.email = info.email;
         this.contact.company = info.company;
         this.contact.birthday = info.birthday;
-        this.contact.id = info.id;
+        this.contact.id = info.contact_id;
         this.loading = false;
       })
       .catch(error => {

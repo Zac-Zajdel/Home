@@ -10,8 +10,9 @@
           class="text-gray-700 pt-8 w-full border-b focus:border-blue-400 focus:outline-none"
           :id="name"
           type="text"
+          :class="errorClassObject(name)"
           :placeholder="placeholder"
-          @input="updateField()"
+          @input="updateField(name)"
           v-model="value"
         />
         <p class="text-red-700 text-sm" v-text="errorMessage(name)"></p>
@@ -33,13 +34,26 @@ export default {
   },
 
   methods: {
-    updateField() {
+    updateField(name) {
+      this.clearErrors(name);
       this.$emit("update", this.value);
     },
     errorMessage(name) {
       if (this.errors && this.errors[name]) {
         return this.errors[name][0];
       }
+    },
+    clearErrors(name) {
+      if (this.errors && this.errors[name]) {
+        this.errors[name] = null;
+      }
+    },
+
+    // If true, then we apply this class defined below
+    errorClassObject(name) {
+      return {
+        "error-field": this.errors && this.errors[name]
+      };
     }
   },
   watch: {
@@ -50,4 +64,9 @@ export default {
 };
 </script>
 
-<style scope></style>
+<style scope>
+.error-field {
+  @apply border-red-500;
+  @apply border-b-2;
+}
+</style>
