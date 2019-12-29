@@ -50,8 +50,11 @@
       <div class="flex flex-col flex-auto h-screen overflow-y-hidden">
         <div class="flex items-center justify-between h-16 px-6 border-b border-gray-400">
           <div></div>
+          <div class="flex items-center">
+            <SearchBar />
+            <ProfileCircle :name="user.name"></ProfileCircle>
+          </div>
           <!-- TODO: Add Breadcrumbs For Better UX -->
-          <ProfileCircle :name="user.name"></ProfileCircle>
         </div>
         <div class="flex flex-col overflow-y-hidden flex-auto">
           <router-view class="overflow-x-hidden p-6"></router-view>
@@ -63,11 +66,13 @@
 
 <script>
 import ProfileCircle from "./ProfileCircle.vue";
+import SearchBar from "./SearchBar.vue";
 
 export default {
   name: "App",
   components: {
-    ProfileCircle
+    ProfileCircle,
+    SearchBar
   },
   props: ["user"],
   created() {

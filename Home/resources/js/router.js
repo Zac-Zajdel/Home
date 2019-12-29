@@ -21,6 +21,7 @@ export default new VueRouter({
         { path: "/contacts/:id", component: ContactsShow },
         { path: "/contacts/:id/edit", component: ContactsEdit },
         { path: "/birthdays", component: BirthdaysIndex },
+
         { path: "/budgetManager", component: BudgetManager },
         { path: "/calculator", component: Calculator }
     ],
