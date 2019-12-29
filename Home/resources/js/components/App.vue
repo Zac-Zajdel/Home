@@ -12,14 +12,17 @@
             to="/contacts/create"
             class="flex items-center text-blue-700 hover:text-blue-500"
           >
-            <div class="tracking-wide">Add New Contact</div>
+            <i class="fas fa-plus pr-2"></i>
+            <div class="tracking-wide">Add Contact</div>
           </router-link>
 
           <p class="pt-12 text-gray-500 uppercase text-xs">Personal</p>
           <router-link to="/contacts" class="flex items-center text-blue-700 hover:text-blue-500">
+            <i class="far fa-address-book pr-2"></i>
             <div class="tracking-wide">Contacts</div>
           </router-link>
           <router-link to="/birthdays" class="flex items-center text-blue-700 hover:text-blue-500">
+            <i class="fas fa-birthday-cake pr-2"></i>
             <div class="tracking-wide">Birthdays</div>
           </router-link>
 
@@ -28,14 +31,17 @@
             to="/budgetManager"
             class="flex items-center text-blue-700 hover:text-blue-500"
           >
+            <i class="fas fa-tasks pr-2"></i>
             <div class="tracking-wide">Budget Manager</div>
           </router-link>
           <router-link to="/calculator" class="flex items-center text-blue-700 hover:text-blue-500">
+            <i class="fas fa-calculator pr-2"></i>
             <div class="tracking-wide">Calculator</div>
           </router-link>
 
           <p class="pt-12 text-gray-500 uppercase text-xs">Settings</p>
           <div class="flex items-center text-blue-700 hover:text-blue-500">
+            <i class="fas fa-sign-out-alt pr-2"></i>
             <button @click="logout" class="tracking-wide">Logout</button>
           </div>
         </nav>

@@ -32,6 +32,7 @@ Pending
 - [Laravel](https://laravel.com/)
 - [Vue](https://vuejs.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
+- [Font Awesome](https://fontawesome.com/start)
 
 ## Authors
 
