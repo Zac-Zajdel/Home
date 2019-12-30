@@ -17,13 +17,14 @@
         v-model="searchTerm"
         @input="search"
         @focus="focus = true"
+        @click="results = []"
       />
       <div
         v-if="focus"
         class="absolute right-0 bg-blue-500 text-white rounded-lg p-4 mr-6 mt-2 shadow z-20 overflow-hidden"
         style="width: 25rem;"
       >
-        <div v-if="results == 0">No results found for '{{ searchTerm }}'</div>
+        <div v-if="results == 0">No results found for {{ searchTerm }}</div>
         <div v-for="(result, index) in results" :key="index">
           <router-link :key="$route.fullPath" :to="`/contacts/${results[index].contact_id}`">
             <div @click="focus = false" class="flex items-center">
@@ -64,7 +65,6 @@ export default {
         .then(response => {
           this.results = response.data.data;
           this.searchTerm = "";
-          this.console.log(this.results);
         })
         .catch(error => {
           console.log(error);
@@ -74,4 +74,4 @@ export default {
 };
 </script>
 
-<style></style>
+<style scoped></style>

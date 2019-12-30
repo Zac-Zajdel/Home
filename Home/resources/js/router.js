@@ -1,15 +1,15 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import Index from "./components/Index.vue";
-import ContactsCreate from "./components/Personal/ContactsCreate.vue";
-import ContactsShow from "./components/Personal/ContactsShow.vue";
-import ContactsEdit from "./components/Personal/ContactsEdit.vue";
-import ContactsIndex from "./components/Personal/ContactsIndex.vue";
+import ContactsCreate from "./components/Personal/Contacts/ContactsCreate.vue";
+import ContactsShow from "./components/Personal/Contacts/ContactsShow.vue";
+import ContactsEdit from "./components/Personal/Contacts/ContactsEdit.vue";
+import ContactsIndex from "./components/Personal/Contacts/ContactsIndex.vue";
 
-import BirthdaysIndex from "./components/Personal/BirthdaysIndex.vue";
+import BirthdaysIndex from "./components/Personal/Birthdays/BirthdaysIndex.vue";
 
-import BudgetManager from "./components/Financial/BudgetManager.vue";
-import Calculator from "./components/Financial/Calculator.vue";
+import BudgetManager from "./components/Financial/BudgetManager/BudgetManager.vue";
+import Calculator from "./components/Financial/Calculator/Calculator.vue";
 
 Vue.use(VueRouter);
 

@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import ContactsList from "./ContactsList";
+import ContactsList from "../Contacts/ContactsList";
 
 export default {
   name: "ContactsIndex",

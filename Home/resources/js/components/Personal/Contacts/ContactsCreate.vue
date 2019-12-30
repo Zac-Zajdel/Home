@@ -38,7 +38,7 @@
 </template>
 
 <script>
-import InputField from "../InputField.vue";
+import InputField from "../../InputField.vue";
 
 export default {
   name: "ContactsCreate",

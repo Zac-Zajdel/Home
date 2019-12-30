@@ -1,4 +1,6 @@
 {
+    "name": "home",
+    "description": "The one place to view your online information",
     "private": true,
     "scripts": {
         "dev": "npm run development",
