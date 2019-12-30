@@ -2176,7 +2176,134 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-/* harmony default export */ __webpack_exports__["default"] = ({});
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  data: function data() {
+    return {
+      total: 0
+    };
+  }
+});
 
 /***/ }),
 
@@ -21395,15 +21522,248 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c(
+    "div",
+    { staticClass: "container mx-auto sm:w-3/4 md:w-3/4 lg:w-3/4 xl:w-3/4" },
+    [
+      _c("div", [
+        _c("div", { staticClass: "flex" }, [
+          _c(
+            "div",
+            {
+              staticClass:
+                "text-center w-full bg-gray-300 border border-gray-700 h-12 pt-3"
+            },
+            [
+              _vm._v(
+                "\n                " + _vm._s(_vm.total) + "\n            "
+              )
+            ]
+          )
+        ]),
+        _vm._v(" "),
+        _vm._m(0),
+        _vm._v(" "),
+        _vm._m(1),
+        _vm._v(" "),
+        _vm._m(2),
+        _vm._v(" "),
+        _vm._m(3),
+        _vm._v(" "),
+        _vm._m(4)
+      ])
+    ]
+  )
 }
 var staticRenderFns = [
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", [
-      _c("p", [_vm._v("Calculator Feature Available Soon...")])
+    return _c("div", { staticClass: "flex" }, [
+      _c(
+        "div",
+        {
+          staticClass:
+            "text-center w-1/4 bg-gray-500 border border-gray-700 h-12 pt-2"
+        },
+        [_vm._v("\n                %\n            ")]
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass:
+            "text-center w-1/4 bg-gray-500 border border-gray-700 h-12 pt-2"
+        },
+        [_vm._v("\n                CE\n            ")]
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass:
+            "text-center w-1/4 bg-gray-500 border border-gray-700 h-12 pt-2"
+        },
+        [_vm._v("\n                C\n            ")]
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass:
+            "text-center w-1/4 bg-gray-500 border border-gray-700 h-12 pt-2"
+        },
+        [_vm._v("\n                /\n            ")]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "flex" }, [
+      _c(
+        "div",
+        {
+          staticClass:
+            "text-center w-1/4 bg-gray-500 border border-gray-700 h-12 pt-2"
+        },
+        [_vm._v("\n                7\n            ")]
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass:
+            "text-center w-1/4 bg-gray-500 border border-gray-700 h-12 pt-2"
+        },
+        [_vm._v("\n                8\n            ")]
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass:
+            "text-center w-1/4 bg-gray-500 border border-gray-700 h-12 pt-2"
+        },
+        [_vm._v("\n                9\n            ")]
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass:
+            "text-center w-1/4 bg-gray-500 border border-gray-700 h-12 pt-2"
+        },
+        [_vm._v("\n                x\n            ")]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "flex" }, [
+      _c(
+        "div",
+        {
+          staticClass:
+            "text-center w-1/4 bg-gray-500 border border-gray-700 h-12 pt-2"
+        },
+        [_vm._v("\n                4\n            ")]
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass:
+            "text-center w-1/4 bg-gray-500 border border-gray-700 h-12 pt-2"
+        },
+        [_vm._v("\n                5\n            ")]
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass:
+            "text-center w-1/4 bg-gray-500 border border-gray-700 h-12 pt-2"
+        },
+        [_vm._v("\n                6\n            ")]
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass:
+            "text-center w-1/4 bg-gray-500 border border-gray-700 h-12 pt-2"
+        },
+        [_vm._v("\n                -\n            ")]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "flex" }, [
+      _c(
+        "div",
+        {
+          staticClass:
+            " text-center w-1/4 bg-gray-500 border border-gray-700 h-12 pt-2"
+        },
+        [_vm._v("\n                1\n            ")]
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass:
+            " text-center w-1/4 bg-gray-500 border border-gray-700 h-12 pt-2"
+        },
+        [_vm._v("\n                2\n            ")]
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass:
+            " text-center w-1/4 bg-gray-500 border border-gray-700 h-12 pt-2"
+        },
+        [_vm._v("\n                3\n            ")]
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass:
+            " text-center w-1/4 bg-gray-500 border border-gray-700 h-12 pt-2"
+        },
+        [_vm._v("\n                +\n            ")]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "flex" }, [
+      _c(
+        "div",
+        {
+          staticClass:
+            " text-center w-1/4 bg-gray-500 border border-gray-700 h-12 pt-2"
+        },
+        [_vm._v("\n                +/-\n            ")]
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass:
+            " text-center w-1/4 bg-gray-500 border border-gray-700 h-12 pt-2"
+        },
+        [_vm._v("\n                0\n            ")]
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass:
+            " text-center w-1/4 bg-gray-500 border border-gray-700 h-12 pt-2"
+        },
+        [_vm._v("\n                .\n            ")]
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass:
+            " text-center w-1/4 bg-gray-600 border border-gray-700 h-12 pt-2"
+        },
+        [_vm._v("\n                =\n            ")]
+      )
     ])
   }
 ]
