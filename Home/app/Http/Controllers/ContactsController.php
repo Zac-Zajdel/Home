@@ -63,10 +63,10 @@ class ContactsController extends Controller
     private function contactValidationData()
     {
         return request()->validate([
-      'name' => 'required',
-      'email' => 'required | email',
-      'birthday' => 'required',
-      'company' => 'required'
-    ]);
+          'name' => 'required',
+          'email' => 'required | email',
+          'birthday' => 'required',
+          'company' => 'required'
+      ]);
     }
 }
