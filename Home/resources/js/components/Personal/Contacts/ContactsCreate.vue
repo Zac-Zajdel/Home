@@ -57,7 +57,9 @@ export default {
     };
   },
   methods: {
+    // Hello
     submitData() {
+      let item = "Hello";
       axios
         .post("/api/contacts", this.form)
         .then(response => {
